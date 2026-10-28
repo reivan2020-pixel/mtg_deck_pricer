@@ -1,0 +1,25 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Application builds
+build/
+dist/
+*.spec
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor-specific local settings
+.vscode/*.local.json
+
+# Local secrets
+.env
+.env.*
